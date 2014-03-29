@@ -1,4 +1,4 @@
 InputSum
 ========
 
-Simple jQuery plugin allow sum values variable by mouse click
+Simple jQuery plugin that allows counting the values of the checkbox fields by mouse click
