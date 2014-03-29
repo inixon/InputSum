@@ -10,9 +10,9 @@
  1. HTML MarkUp
  Very simple. Just add some checkbox with value and same class. Don't forget "result" area in code.
  
-   <div type="checkbox" class="myclass" value="100" />
-   <div type="checkbox" class="myclass" value="150" />
-   <div type="checkbox" class="myclass" value="210" />
+   <input type="checkbox" class="myclass" value="100" />
+   <input type="checkbox" class="myclass" value="150" />
+   <input type="checkbox" class="myclass" value="210" />
      ....
    <div type="checkbox" class="myclass" value="5500" />
  
