@@ -26,7 +26,7 @@
  And after click on chekboxs you will see summ in "result" area on page.
  
  3.Settings
-Plugin have just one settings. If you have change name for result code, just call function with key 'result', like this
+ Plugin have just one settings. If you want change name for result code, just call function with key 'result', like this
  
  $('.myclass').inputsum({
    result: '#another-id'
