@@ -1,6 +1,6 @@
 /*
  jQuery Input Sum Plugin
- Version: 1.0 (30-mar-2014)
+ Version: 1.0.1 (30-mar-2014)
  Author: Nikita Listratov
  URL: https://github.com/inixon/InputSum
  Requires jQuery v1.10 or later
@@ -39,8 +39,10 @@
     $.fn.inputsum = function(options) {
         
         var settings = $.extend({
-            result: '#result'
+            result: '#result',
+            reset: '#reset'
         }, options );
+        
         
        $(':checkbox').on('click', function() {
         
@@ -60,7 +62,11 @@
          
          }
        
-       }); 
+       });
+       
+       $(settings.reset).on('click', function() {
+           $(settings.result).html('0');
+           $(':checkbox').attr("checked", false);
+       });
     }
-    
 }( jQuery ));
